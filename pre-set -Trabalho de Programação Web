@@ -1,0 +1,94 @@
+Site de calculos financeiro - Colocando o dinheiro pra suar....
+
+HOME PAGE
+
+explicar resumida mente o valor do dinheiro ao longo do tempo.
+(O valor do dinheiro no tempo (em inglês, time value of money ou TVM) é um conceito econômico/financeiro que afirma ser preferível receber uma quantia de dinheiro agora do que a mesma quantia no futuro. Isso porque você poderia investir o dinheiro e obter retornos.)
+
+conceito de inflação
+(​Inflação é o aumento dos preços de bens e serviços. Ela implica diminuição do poder de compra da moeda. A inflação é medida pelos índices de preços)
+
+conceito de deflação
+(A deflação consiste na redução contínua e generalizada dos preços de produtos e serviços na economia.)
+
+Como funciona a balança da inflação e deflação no mundo
+(Deflação e inflação são fenômenos econômicos opostos, mas que têm um impacto significativo na economia. Enquanto a inflação é caracterizada pelo aumento geral dos preços dos bens e serviços em uma economia, a deflação é caracterizada pela queda geral dos preços. Na inflação, o poder de compra da moeda é reduzido, enquanto na deflação, o poder de compra da moeda é aumentado. Ambos os fenômenos podem ser influenciados por diversos fatores, como a oferta e a demanda, a política monetária e fiscal, e a situação econômica geral do país.)
+
+Qual é o pior a inflação ou deflação ?
+(Tanto a deflação quanto a inflação podem trazer impactos negativos para a economia e para a população em geral. No entanto, a inflação pode ser considerada mais prejudicial do que a deflação, pois pode gerar uma perda do poder de compra da moeda e levar à desvalorização do dinheiro. Já a deflação pode desestimular o consumo e os investimentos, reduzindo a atividade econômica e gerando problemas financeiros para empresas e famílias.)
+
+
+LANDING PAGE
+
+pagina 01 utilizar aplicações que pagam o 100% do cdi diariamente.
+( colocar o dinheiro para trabalhar por voce)... pegar o valor do cdi atualizado na internet como ???
+
+pagina 02 utilizar o parcelamento sem juros.
+( voce ganha mais tempo pelo mesmo valor)
+
+pagina 03 fazer o calculo do desconto minimo que podemos aceitar para pagamento avista.
+( considerando 30 dias cartao credito como prazo, o valor avista deve ser menor ou igual ao valor-rendimento do valor por 01 mes)
+
+pagina 04 fazer a simulação do pagamento parcelado com o dinheiro aplicado.
+( juntando o item 01 com o item 02)
+
+pagina 05 quando nao tem opçao de parcelamento, utilizar o cartao de credito para forçar o dinheiro a render até a data da fatura. 
+(sempre temos uma forma de postergar o pagamento)
+
+pagina 06 programas de cashback,milhas e fidelidade de cartao de credito
+( tenha 01 que seja facil de controlar, ele não é o foco do retorno mas como vamos usar o cartao de credito, podemos ter mais um retorno aqui).
+
+
+LAYOUT
+
+avaliar criar um video para ajudar a contextualizar a mensagem da home page na cabeça do usuario.
+utilizar o polvo com 05 icones para acessar as contas e mostrar isso abaixo do polvo.... um icone em cada braço...
+lembrar de usar os fadein/fadeout nas animações no polvo...
+estilizações de pagina mantendo o polvo no cabeçalho da pagina para ser facil de retroceder apos acessar a landing page.
+
+PRE-REQUISITOS
+
+Disciplina: Programação para Internet I - PI1 Professor: Felipe Leivas Teixeira
+Data de Entrega: 04/07/2023
+Descrição do Trabalho: O trabalho consiste em desenvolver um site de informações sobre determinado tema escolhido pelo aluno, utilizando apenas as tecnologias JavaScript, HTML e CSS. Não é permitido a utilização de nenhum framework que auxilie no desenvolvimento do trabalho. O trabalho poderá ser desenvolvido em duplas. O trabalho deve conter no mínimo as seguintes características:
+• 4 (quatro) páginas lincadas umas com as outras – 0,5 pontos; OK
+• Elementos básicos do HTML adequados com a página (Listas, Tabelas, Imagens, Formulário, ...) – 2,5 pontos; OK
+• Estilização e layout agradável das páginas com CSS – 3,0 pontos; Em Andamento
+• Adicionar 8 eventos diferentes com o JS que criem, alterem ou removam elementos HTML– 4,0 pontos.
+    1-Fumaça atras do polvo sumindo e apareçendo; ok
+    2-Menu de seleção entre as paginas muda de cor; ok 
+    3-Calculadora de rentabilidade diaria -  Formulario com jsdom; ok 
+    4-Tabela de rentabilidade Anual - Modifica os valores do html com jsdom; ok
+    5-Modo escuro/claro, criar botao que ao ser clicado altere a estilização da pagina entre tema claro e escuro; ok
+    6-Criar um alert para mostrar o valor do rendimento abaixo de 30 dias;ok
+    7-Falar brevemente sobre fundos de Investimento Imobiliario.; ok
+    8-Configurar a troca dos png das midias socias conforme o botão modo escuro é selecionado; ok
+    9-Inserir horario de funcionamento; ok
+    10-Inserir um menu de cadastro/login; ok
+    11-Colocar um icone de premiun nos menus FII,Cartao Credito, Tamar; ok
+    12-Inserir o campo dos parceiros ao lado do venha ser premiun como se fosse um banner de propaganda?; pendente
+    13-Inserir uma barra de pesquisa expansivel, clicar na lupa e ela expandir; pendente
+    14-Mostrar o calculo de valor minimo para pagamento avista; pendente
+    15-Atribuir links as imagens de midias sociais e localização no maps, colocar o atributo target=blank;ok
+   
+    
+  
+    
+
+
+
+
+
+
+
+
+
+OBS: TRABALHOS COPIADOS TOTALMENTE OU PARCIALMENTE DOS COLEGAS OU DA INTERNET, SERÃO INVALIDADOS.
+Descrição da Entrega: O trabalho poderão ser entregues até o dia 04 de julho de 2023 às 23:59, no Moodle da disciplina.
+O trabalho deve ser entregue da seguinte forma:
+• Um arquivo compactado no formato .zip ou .rar.
+• Em alguma parte do trabalho deve conter o nome dos autores.
+• Dentro do arquivo, deve conter os arquivos .html, .css e demais arquivos (imagens, vídeos, áudios,...).
+• Todo o Código deve estar comentado e indentado.
+
+Para esclarecimento de dúvidas, contatar o professor no e-mail felipeteixeira@ifsul.edu.br.

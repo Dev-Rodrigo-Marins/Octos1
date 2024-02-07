@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"> <!--link o arquivo css-->
+  <img class="fundo" src="fumaca-azul.png" width=100% height="60"> <!-- fundo fumaça-->
+  <a href="ProgWebOctus.html"><img id="polvo" src="polvo2.png" width="40%" height="120"></a> <!-- polvo octos mascote-->
+  <img class="submenu2" id="cad" src="do-utilizador.png" width="80" height="80" style="border:solid black">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--adiciona a biblioteca Jquery-->
+  <script src="sub1.js"></script>
+
+  <!-- função para alternar o modo do site -->
+  <script>
+    window.onload = function () {
+      var modoEscuro = localStorage.getItem("modoEscuro");
+      if (modoEscuro === "true") {
+        modoescuro();
+      } else {
+        modoclaro();
+      }
+    };
+  </script>
+
+  <!-- verifica a resolução do cliente, o site foi desenvolvido em 1920*1080 e informa qual a resolução padrão do site -->
+  <script>
+    window.onload = function () {
+      var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+      var resolutionText = "A resolução padrão deste site é 1920x1080.";
+
+      if (screenWidth !== 1920 || screenHeight !== 1080) {
+        alert(resolutionText);
+      }
+    };
+  </script>
+
+</head>
+
+<body>
+<!-- botao para alterar o modo de exibição do site -->
+  <div class="submenu1">
+    <div> <button id="modoescuro" onclick="alternarModo()">Modo Escuro</button></div>
+    <fieldset id="bemvindo">
+      <h1> Bem vindo ao <span id="octos"> OCTOS </span> <br>
+        Nossos braços alcançam seus objetivos!</h1>
+    </fieldset>
+  </div>
+<!-- submenu de navegaççao entre as paginas do site -->
+  <fieldset class="field2" id="field2">
+    <table id="tab">
+      <td class="td1" id="td1" onmouseenter="onMouseEnter('td1')" onmouseleave="onMouseLeave('td1')"><a
+          href="sub1.html">Calculadora Renda Fixa </a></td>
+      <td class="td2" id="td1" onmouseenter="onMouseEnter('td2')" onmouseleave="onMouseLeave('td2')"><a
+          href="sub2.html">Parcelar</a></td>
+      <td class="td3" id="td1" onmouseenter="onMouseEnter('td3')" onmouseleave="onMouseLeave('td3')"><a
+          href="sub3.html">Avista</a></td>
+      <td class="td4" id="td1" onmouseenter="onMouseEnter('td4')" onmouseleave="onMouseLeave('td4')"><a
+          href="sub4.html">Projeto Tamar </a></td>
+      <td class="td5" id="td1" onmouseenter="onMouseEnter('td5')" onmouseleave="onMouseLeave('td5')"><a
+          href="sub5.html">Fundos Imobiliarios </a><img class="cadeado" id="cadeado" src="cadeado.png"></td>
+      <td class="td6" id="td1" onmouseenter="onMouseEnter('td6')" onmouseleave="onMouseLeave('td6')"><a
+          href="sub6.html">Area exclusiva </a><img class="cadeado" id="cadeado1" src="cadeado.png"></td>
+    </table>
+  </fieldset>
+<!-- apresentação do ideal do site, de onde saiu a ideia que criou o todo resumidamente! -->
+  <h4>O OCTOS surge como um movimento em prol da educação financeira, buscando complementar o conhecimento financeiro de
+    todos os brasileiros.
+    Nosso objetivo é ensinar às pessoas trabalhadoras a como controlar seu dinheiro de forma mais produtiva.
+    Assista ao vídeo sobre tempo e dinheiro e navegue pelos nossos menus de dicas acima. Vamos ajudá-lo a fazer o seu
+    dinheiro trabalhar para você!
+  </h4>
+<!-- inicio dos videos mestre e caixa de sugestões! -->
+  <div class="container">
+
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/8LoOFpoQWys" title="YouTube video player" frameborder="1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <p style="text-align: center;">*retirado do canal <a class="l1"
+          href="https://www.youtube.com/@marcelobemerguy9055">Marcelo Bemerguy</a> no YouTube.</p>
+    </div>
+    <!-- anuncio do lado esquerdo -->
+    <div class="gif_nu1">
+      <FIeldset>
+        <img id="gif_nu_ifr" src="nu3.PNG" frameborder="1"></img>
+      </FIeldset>
+    </div>
+
+    <div class="videos">
+      <fieldset>
+        <div id="video-container">
+          <iframe src="https://www.youtube.com/embed/KuoeirjSEUg" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> <br>
+          <p class="video-description">Entenda o que é CDI!</p>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://www.youtube.com/embed/w--g1XfLoo0" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> <br>
+          <p class="video-description">Renda Fixa os 10 melhores!</p>
+        </div>
+
+        <div id="video-container">
+          <iframe src="https://www.youtube.com/embed/kHJC3ioC-4o" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> <br>
+          <p class="video-description">Selic, IPCA e Inflação ? </p>
+        </div>
+
+    </div>
+    </fieldset>
+<!-- anuncio do lado direito! -->
+    <div class="gif_nu">
+      <FIeldset>
+        <img id="gif_nu_ifr" src="nu1.PNG" frameborder="1"></img>
+      </FIeldset>
+    </div>
+  </div>
+
+  <h4>Vamos colocar nossos 08 tentaculos para trabalhar a seu favor! </h4>
+
+</body>
+<!-- rodape do site  -->
+<footer id="rodape">
+  <fieldset id="f1">
+    <legend>
+      <p id="trodape"> Para uma consultoria mais detalhada, entre em contato por nossos canais digitais.</p>
+    </legend>
+    <table id="roda">
+      <td style="vertical-align: middle; text-align: center;">
+        <div class="social-media">
+          <div class="smd">
+            <a href="https://wa.me/5551986102344?" text="Ola,%20Bem%20Vindo%20a%20Octos!" target="_blank"><img id="sm1"
+                src="whatsapp.png" width="80" height="60"></a>
+            <a href="https://t.me/+aIB0CcdetzQyOGVh" target="_blank"><img id="sm2" src="telegram.png" width="80"
+                height="60"></a>
+            <a href="https://discord.gg/H8tQSkTc" target="_blank"><img id="sm3" src="discordia.png" width="80"
+                height="60"><br><br></a>
+          </div>
+          <a href="https://www.youtube.com/@rodrigomarins9970" target="_blank"><img id="btinscrever"
+              src="bt inscrever.png" width="270" height="100"></a>
+          <img class="fundo" id="anuncio" src="anunciof2.png" width="750" height="160">
+          <img id="loc" src="horario2.png" width="220" height="110">
+          <a href="https://goo.gl/maps/TK1t8Ne9votr7Vgd6" target="_blank"><img id="loc" src="localizacao.png" width="80"
+              height="80"></a>
+        </div>
+      </td>
+
+    </table>
+
+    <p id="rod">
+
+      <br>E-mail: <a class="l1" href="mailto:octos@octos.com.br"> octos@octos.com.br </a>
+      <br>Rua Comendador Neto 2354
+      <br> Anchieta, São Paulo - Brasil.
+      <br>Cep 09834-000
+    </p>
+
+  </fieldset>
+</footer>
+
+</html>
